@@ -15,6 +15,7 @@
 .accent {
   &-green {
     color: $Bright-Yellow;
+    font-weight: 700;
   }
   &-blue {
     color: $Cyan;
@@ -35,14 +36,14 @@
   width: 100%;
   text-align: center;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px rgba($color: #000000, $alpha: 0.2);
+  box-shadow: 0px 0px 10px rgba($color: #000000, $alpha: 0.1);
   &:hover {
     opacity: 0.8;
   }
 }
 .subscription {
   max-width: 520px;
-  box-shadow: 0px 0px 10px rgba($color: #000000, $alpha: 0.2);
+  box-shadow: 0px 0px 10px rgba($color: #000000, $alpha: 0.1);
   margin: 5rem auto;
   border-radius: 5px;
   overflow: hidden;
