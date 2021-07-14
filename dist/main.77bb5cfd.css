@@ -8,6 +8,87 @@
 body {
   font-family: "Karla", sans-serif;
   background-color: #e5eff5;
+  line-height: 1.7;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.mid {
+  margin: 1.25em 0em;
+}
+.mid h2 {
+  margin-bottom: 0.5rem;
+}
+
+.accent-green {
+  color: #c0df34;
+}
+.accent-blue {
+  color: #2ab2af;
+}
+.accent-fade {
+  color: #e5eff5;
+}
+
+.btn {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+  background: #c0df34;
+  padding: 1em;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.btn:hover {
+  opacity: 0.8;
+}
+
+.subscription {
+  max-width: 520px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: 5rem auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.header-card {
+  background: white;
+  color: #98a6bd;
+  padding: 2em;
+}
+
+.sub-cards {
+  color: white;
+  background: #78d3d2;
+}
+.sub-cards h3 {
+  font-size: 1.3em;
+}
+.sub-cards .sub-card {
+  padding: 2em;
+}
+.sub-cards .price {
+  background: #2ab2af;
+}
+.sub-cards .price h2 {
+  font-size: 2em;
+}
+.sub-cards .price small {
+  font-size: 0.5em;
+}
+.sub-cards .info {
+  width: 80%;
+}
+.sub-cards .info p {
+  color: #e5eff5;
+  margin-top: 0.5em;
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */
